@@ -20,7 +20,7 @@ function Listproducts() {
 	const [searchQuery, setSearchQuery] = useState("");
 
 	// const apiURL = "https://fakestoreapi.com/products";
-	const apiURL = "http://localhost:8080/allproduct";
+	const apiURL = "ecommerce-orpin-delta.vercel.app/allproduct";
 
 	// useEffect hook to fetch the list of products from the API on component mount
 	useEffect(() => {
