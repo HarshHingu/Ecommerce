@@ -10,7 +10,7 @@ const app = express();
 const port = 8080;
 
 const myCors = {
-	origin: "http://localhost:3000",
+	origin: "https://ecommerce-frontend-eta-snowy.vercel.app",
 	methods: "GET, POST",
 	credentials: true, // enable passing of cookies, authentication headers, etc.
 };
