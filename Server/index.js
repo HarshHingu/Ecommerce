@@ -10,7 +10,7 @@ const app = express();
 const port = 8080;
 
 const myCors = {
-	origin: "https:harsh-ecommerce.vercel.app",
+	origin: "https//:harsh-ecommerce.vercel.app",
 	methods: "GET, POST",
 	credentials: true, // enable passing of cookies, authentication headers, etc.
 };
