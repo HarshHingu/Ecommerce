@@ -35,7 +35,7 @@ function ProductPage() {
 		const fetchProductDetails = async (productId) => {
 			try {
 				const response = await fetch(
-					`http://localhost:8080/product/${productId}`,
+					`https://ecommerce-orpin-delta.vercel.app/product/${productId}`,
 				);
 				if (!response.ok) {
 					throw new Error("Network response was not ok");
