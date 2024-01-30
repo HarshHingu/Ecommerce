@@ -8,7 +8,7 @@ function Categories() {
 
 	// useEffect hook to fetch categories from the API
 	useEffect(() => {
-		fetch("https://ecommerce-orpin-delta.vercel.app/category")
+		fetch("http://localhost:8080/category")
 			.then((response) => response.json())
 			.then((data) => {
 				console.log("categories data: ", data);

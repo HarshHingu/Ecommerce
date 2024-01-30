@@ -13,7 +13,7 @@ const LoginForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("https://ecommerce-orpin-delta.vercel.app/user/login", {
+      const response = await axios.post("http://ecommerce-orpin-delta.vercel.app/user/login", {
         email,
         password,
       });

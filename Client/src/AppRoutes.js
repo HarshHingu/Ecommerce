@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Cart from "./Cart";
 import RegistrationForm from "./RegistrationForm";
 import LoginForm from "./LoginForm";
+import PaymentSuccessfulVerify from './PaymentSuccessfulVerify';
 
 function AppRoutes() {
 	return (
@@ -23,6 +24,9 @@ function AppRoutes() {
 				<Route path="/user/register" element={<RegistrationForm />} />
 				{/* Login */}
 				<Route path="/user/login" element={<LoginForm />} />
+			
+				<Route path="/paymentverify" element={<PaymentSuccessfulVerify />} />
+				paymentverify
 			</Routes>
 		</>
 	);

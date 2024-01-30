@@ -13,9 +13,9 @@ const CategoryProducts = () => {
 
 	const { category } = useParams();
 
-	// const apiURL = "https://fakestoreapi.com/products/category/jewelery";
+	// const apiURL = "http://fakestoreapi.com/products/category/jewelery";
 
-	const apiURL = `https://ecommerce-orpin-delta.vercel.app/category/${category}`;
+	const apiURL = `http://localhost:8080/category/${category}`;
 
 	// useEffect hook to fetch the list of products from the API on component mount
 	useEffect(() => {

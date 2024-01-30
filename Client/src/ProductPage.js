@@ -29,13 +29,13 @@ function ProductPage() {
 		console.log("Products State: ", products);
 	}, [products]);
 
-	// const apiURL = "https://fakestoreapi.com/products/category/jewelery";
+	// const apiURL = "http://fakestoreapi.com/products/category/jewelery";
 
 	useEffect(() => {
 		const fetchProductDetails = async (productId) => {
 			try {
 				const response = await fetch(
-					`https://ecommerce-orpin-delta.vercel.app/product/${productId}`,
+					`http://localhost:8080/product/${productId}`,
 				);
 				if (!response.ok) {
 					throw new Error("Network response was not ok");

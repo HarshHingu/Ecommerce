@@ -13,7 +13,7 @@ const RegistrationForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("https://ecommerce-orpin-delta.vercel.app/user/register", {
+      const response = await axios.post("http://localhost:8080/user/register", {
         email,
         password,
       });
