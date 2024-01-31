@@ -6,7 +6,7 @@ function Categories() {
 	// State to hold the category data fetched from the API
 	const [category, setCategory] = useState([]);
 
-	// useEffect hook to fetch categories from the API
+	// useEffect hook to fetch categories from API
 	useEffect(() => {
 		fetch("https://ecommerce-orpin-delta.vercel.app/category")
 			.then((response) => response.json())
