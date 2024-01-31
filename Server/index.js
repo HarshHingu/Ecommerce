@@ -28,7 +28,7 @@ app.get("/allproduct", async (request, response) => {
 	response.json(result);
 });
 
-//Get All Categories from the Database
+//Get All Categories from Database
 app.get("/category", async (request, response) => {
 	const categories = await AllCategories.find({});
 
